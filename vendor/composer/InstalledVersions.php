@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.0.0',
-    'version' => '8.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f23de3d451af86bc2acd07205a8e3645cff2b74e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -464,12 +464,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.0.0',
-      'version' => '8.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f23de3d451af86bc2acd07205a8e3645cff2b74e',
     ),
     'laravel/serializable-closure' => 
     array (
@@ -488,6 +488,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'dff39b661e827dae6e092412f976658df82dbac5',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.4.6',
+      'version' => '3.4.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '65ec5c03f7fee2c8ecae785795b829a15be48c2c',
     ),
     'league/commonmark' => 
     array (
@@ -787,8 +796,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0 || 2.0.0 || 3.0.0',
+        0 => '1.0.0 || 2.0.0 || 3.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 
